@@ -31,7 +31,7 @@ The implementation uses a PyTorch-based ResNet18 model with transfer learning an
 **Expected Directory Structure:**
 
 After downloading and extracting, your project directory *must* have the following structure:
-
+```
 multi-image-classification-task/  <-- Your project root
 ├── data/
 │   └── dataset/
@@ -54,7 +54,7 @@ multi-image-classification-task/  <-- Your project root
 ├── download_data.py
 ├── README.md
 └── requirements.txt
-
+```
 
 The `models/` directory will be created automatically when you run the notebook and save the best model.
 
