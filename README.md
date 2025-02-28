@@ -32,28 +32,28 @@ The implementation uses a PyTorch-based ResNet18 model with transfer learning an
 
 After downloading and extracting, your project directory *must* have the following structure:
 
-multi-image-classification-task/  <-- Your project root
-    ├── data/
-    │   └── dataset/
-    │       ├── train/
-    │       │   ├── no/
-    │       │   ├── sphere/
-    │       │   └── vort/
-    │       ├── val/
-    │       │   ├── no/
-    │       │   ├── sphere/
-    │       │   └── vort/
-    │       └── test/
-    │           ├── no/
-    │           ├── sphere/
-    │           └── vort/
-    ├── notebooks/
-    │   └── classification_notebook.ipynb
-    ├── models/
-    │   └── best_model.pth  <-- This file will be created during training
-    ├── download_data.py
-    ├── README.md
-    └── requirements.txt
+multi-image-classification-task/  <-- Your project root
+├── data/
+│   └── dataset/
+│       ├── train/
+│       │   ├── no/
+│       │   ├── sphere/
+│       │   └── vort/
+│       ├── val/
+│       │   ├── no/
+│       │   ├── sphere/
+│       │   └── vort/
+│       └── test/
+│           ├── no/
+│           ├── sphere/
+│           └── vort/
+├── notebooks/
+│   └── classification_notebook.ipynb
+├── models/
+│   └── best_model.pth  <-- This file will be created during training
+├── download_data.py
+├── README.md
+└── requirements.txt
 
 
 The `models/` directory will be created automatically when you run the notebook and save the best model.
