@@ -155,9 +155,9 @@ The model achieves a Test AUC (Area Under the Receiver Operating Characteristic 
 
 If you have generated images during the notebook execution (e.g., using `matplotlib`), you can include them here for a more comprehensive report.
 
-*   **Training History:**  [Insert image of training history plot here - e.g., `images/training_history.png`]
-*   **ROC Curve:** [Insert image of ROC curve here - e.g., `images/roc_curve.png`]
-*   **Confusion Matrix:** [Insert image of confusion matrix here - e.g., `images/confusion_matrix.png`]
+*   **Training History:**  [`TrainVal.png`]
+*   **ROC Curve:** [`MultiClassROCCurve.png`]
+*   **Confusion Matrix:** [`confusionMatrix.png`]
 
 ## File Descriptions
 
