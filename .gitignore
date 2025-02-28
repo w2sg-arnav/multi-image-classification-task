@@ -1,3 +1,4 @@
-# Ignore the data directory
+# Ignore the data directory and the model file
 data/
 ../data/
+models/best_model.pth
